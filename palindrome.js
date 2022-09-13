@@ -1,9 +1,14 @@
-let stvr="";
-for(let i=n-1;i>=0;i--){
-  stvr+=str[i];
-  
+function checkPalindrome(str) {    
+  const reversedString = str.split('').reverse().join('');
+  if(str === reversedString)
+        return true;
+  else
+        return false;
 }
-if(str==stvr){
-  console.log("Yes");
+result = checkPalindrome("summi")
+if(result == true){
+console.log("The given string is Palindrome");
 }
-console.log("No");
+else{
+  console.log("The given string is NOT Palindrome");
+}
