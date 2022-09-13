@@ -19,4 +19,4 @@ function isPrime(num) {
   
   }
   
-  console.log(isPrime(121));
+  console.log(isPrime(121)); 
